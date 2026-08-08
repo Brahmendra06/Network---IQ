@@ -1012,7 +1012,7 @@ Updated Dashboard View
 
 ## Signup Page
 
-![Signup](assets/signup.png)
+![Signup](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20124235.png)
 
 
 

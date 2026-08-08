@@ -20,7 +20,7 @@
 | Team ID | T191 |
 | Team Name | TEAM 191 |
 | Team Lead | Gorantla Sri Sai Brahmendra |
-| GitHub Repository | https://github.com/Brahmendra06/NetworkIQ |
+| GitHub Repository | https://github.com/Brahmendra06/Network---IQ |
 
 
 
@@ -1030,19 +1030,19 @@ Updated Dashboard View
 
 ## Inventory Management
 
-![Inventory](assets/inventory.png)
+![Inventory Management](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20124938.png)
 
 
 
 ## Transfer Management
 
-![Transfer](assets/transfers.png)
+![Transfer Management](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20125154.png)
 
 
 
 ## Profile
 
-![Profile](assets/profile.png)
+![Profile](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20123624.png)
 
 
 
@@ -1177,5 +1177,5 @@ Team Lead:
 
 GitHub:
 
-https://github.com/Brahmendra06/NetworkIQ
+https://github.com/Brahmendra06/Network---IQ
 

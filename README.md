@@ -490,7 +490,7 @@ Features:
 Screenshot:
 
 
-![Profile](assets/profile.png)
+![Profile](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20123624.png)
 
 
 

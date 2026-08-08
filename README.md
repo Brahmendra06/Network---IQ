@@ -1006,7 +1006,7 @@ Updated Dashboard View
 
 ## Login Page
 
-![Login](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20123624.png)
+![Login]([https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20123624.png](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/Screenshot%202026-08-08%20123810.png))
 
 
 

@@ -367,8 +367,7 @@ Contains:
 Screenshot:
 
 
-![User Dashboard](assets/user-dashboard.png)
-
+![User Dashboard](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/user-dashboard.png)
 
 
 ---

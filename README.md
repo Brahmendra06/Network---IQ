@@ -346,7 +346,7 @@ Contains:
 Screenshot:
 
 
-![Admin Dashboard](assets/admin-dashboard.png)
+![Admin Dashboard](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/admin-dashboard.png)
 
 
 

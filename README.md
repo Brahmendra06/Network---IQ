@@ -1,5 +1,6 @@
-# NetworkIQ
-## Inventory Optimization Dashboard
+# 🚀 NetworkIQ
+
+# AI Powered Inventory Optimization Dashboard
 
 
 <p align="center">
@@ -9,216 +10,130 @@
 </p>
 
 
-## Overview
-
-NetworkIQ is a full-stack inventory optimization and management platform designed to help organizations monitor stock levels, manage inventory operations, optimize product transfers, and provide role-based access control.
-
-The system provides separate dashboards for administrators and users.
-
-Administrators can manage inventory, transfers, and system operations, while users can view inventory information and transfer status without modification access.
-
-The application follows a modern full-stack architecture using React for frontend development and Spring Boot for backend services.
-
-
 ---
 
-# Project Highlights
-
-- Role-based authentication system
-- Admin and User dashboards
-- Inventory management system
-- Transfer management system
-- Stock monitoring
-- AI agent monitoring module
-- Notification management
-- Profile management
-- Responsive dashboard UI
-- REST API architecture
+# 👥 Team Details
 
 
----
-
-# Technology Stack
-
-
-## Frontend
-
-| Technology | Purpose |
+| Details | Information |
 |---|---|
-| React.js | User interface development |
-| React Router | Page navigation |
-| Axios | API communication |
-| React Icons | UI icons |
-| CSS3 | Styling and responsive design |
+| Team ID | T191 |
+| Team Name | TEAM 191 |
+| Team Lead | Gorantla Sri Sai Brahmendra |
+| GitHub Repository | https://github.com/Brahmendra06/NetworkIQ |
 
-
-## Backend
-
-| Technology | Purpose |
-|---|---|
-| Java | Backend programming language |
-| Spring Boot | REST API development |
-| Spring Data JPA | Database operations |
-| Hibernate | ORM framework |
-| Maven | Dependency management |
-
-
-## Database
-
-| Technology | Purpose |
-|---|---|
-| MySQL | Data storage |
-
-
-## Development Tools
-
-- Visual Studio Code
-- IntelliJ IDEA
-- Postman
-- Git
-- GitHub
 
 
 ---
 
-# System Architecture
+# 📌 Project Overview
+
+
+NetworkIQ is a full-stack **AI Powered Inventory Optimization Dashboard** developed to help organizations efficiently manage inventory, monitor stock levels, optimize product movement, and provide intelligent recommendations.
+
+The platform provides a centralized inventory management solution with separate access control for administrators and users.
+
+The system allows administrators to perform complete inventory and transfer management operations, while users have restricted view-only access to inventory information.
+
+NetworkIQ is designed with a scalable architecture using modern frontend technologies, REST APIs, backend services, and database integration.
+
+
+
+---
+
+# 🎯 Problem Statement
+
+
+Traditional inventory management systems face several challenges:
+
+
+- Manual stock tracking
+- Overstocking problems
+- Stock shortages
+- Poor inventory visibility
+- Difficulty managing multiple products
+- Inefficient transfer decisions
+- Lack of real-time information
+- No role-based access control
+
+
+NetworkIQ solves these problems by providing a centralized digital inventory optimization platform.
+
+
+
+---
+
+# 🎯 Project Objectives
+
+
+The main objectives of NetworkIQ are:
+
+
+- Build a complete inventory management system
+- Provide real-time inventory visibility
+- Manage products efficiently
+- Track product transfers
+- Provide role-based access control
+- Reduce manual inventory operations
+- Generate intelligent inventory recommendations
+- Create a foundation for AI-based optimization
+
+
+
+---
+
+# ✨ Features Implemented
+
+
+
+# 🔐 Authentication System
+
+
+Implemented:
+
+
+✅ User Registration
+
+✅ User Login
+
+✅ Logout
+
+✅ Role-based authentication
+
+✅ Session management
+
+✅ Profile management
+
+✅ Profile name update
+
+
+
+Supported Roles:
 
 
 ```
-                React Frontend
-                     |
-                     |
-                  Axios API
-                     |
-                     |
-              Spring Boot Backend
-                     |
-                     |
-                  JPA/Hibernate
-                     |
-                     |
-                 MySQL Database
+ADMIN
 
-```
-
-
----
-
-# User Roles
-
-
-## Admin Role
-
-Admin has complete control over the system.
-
-
-### Admin Permissions
-
-✅ Login
-
-✅ View dashboard statistics
-
-✅ Manage inventory
-
-✅ Add products
-
-✅ Edit products
-
-✅ Delete products
-
-✅ View transfers
-
-✅ Edit transfers
-
-✅ Delete transfers
-
-✅ Approve transfers
-
-✅ Monitor AI activities
-
-✅ Manage profile
-
-
----
-
-## User Role
-
-Users have limited access.
-
-
-### User Permissions
-
-✅ Login
-
-✅ View dashboard
-
-✅ View inventory
-
-✅ View transfer status
-
-✅ View AI recommendations
-
-✅ Update profile
-
-
-### User Restrictions
-
-❌ Cannot add inventory
-
-❌ Cannot edit inventory
-
-❌ Cannot delete inventory
-
-❌ Cannot approve transfers
-
-
----
-
-# Application Modules
-
-
-# 1. Authentication Module
-
-
-Features:
-
-- User registration
-- User login
-- Role identification
-- Session storage
-- Profile update
-
-
-Authentication flow:
-
-
-```
-Signup
-   |
-   |
-Database Save
-   |
-   |
-Login
-   |
-   |
-Role Verification
-   |
-   |
-Admin Dashboard / User Dashboard
+USER
 
 ```
 
 
+
 ---
 
-# 2. Admin Dashboard
+# 👨‍💼 Admin Features
 
 
-Admin dashboard provides complete operational control.
+Administrators have complete system access.
 
 
-Dashboard cards:
+
+## Admin Dashboard
+
+
+Dashboard displays:
+
 
 - Total Products
 - Total Quantity
@@ -226,57 +141,32 @@ Dashboard cards:
 - Low Stock Items
 
 
-Admin sections:
-
-- Inventory Management
-- Transfer Management
-- AI Agent Monitoring
-- User Management
-
-
-Screenshot:
-
-![Admin Dashboard](assets/admin-dashboard.png)
-
-
 
 ---
 
-# 3. User Dashboard
+## Inventory Management
 
 
-User dashboard provides read-only information.
+Admin can:
 
 
-Features:
+✅ Add Products
 
-- Product overview
-- Available inventory
-- Transfer tracking
-- AI recommendation view
+✅ View Products
 
+✅ Edit Products
 
-Screenshot:
+✅ Delete Products
 
-![User Dashboard](assets/user-dashboard.png)
+✅ Search Products
 
-
-
----
-
-# 4. Inventory Management
+✅ Filter Products
 
 
-Inventory module manages all products.
+
+Inventory Information:
 
 
-## Product Information
-
-
-Stored details:
-
-
-- Product ID
 - Product Name
 - SKU
 - Category
@@ -287,33 +177,25 @@ Stored details:
 
 
 
-## Admin Operations
+---
+
+## Transfer Management
 
 
 Admin can:
 
-- Add inventory
-- Edit inventory
-- Delete inventory
-- Search products
-- Filter products
 
+✅ View Transfers
 
-Screenshot:
+✅ Edit Transfers
 
-![Inventory Management](assets/inventory.png)
+✅ Delete Transfers
+
+✅ Approve Transfers
 
 
 
----
-
-# 5. Transfer Management
-
-
-Transfer module manages movement of products between locations.
-
-
-Transfer information:
+Transfer Information:
 
 
 - Source Location
@@ -325,7 +207,8 @@ Transfer information:
 - Status
 
 
-Transfer statuses:
+
+Transfer Status:
 
 
 ```
@@ -338,98 +221,275 @@ Rejected
 ```
 
 
-Admin actions:
-
-- View transfer
-- Edit transfer
-- Delete transfer
-- Approve transfer
-
-
-Screenshot:
-
-![Transfer Management](assets/transfers.png)
-
-
 
 ---
 
-# 6. AI Agent Monitoring
+## AI Agent Monitoring
 
 
-The system contains AI-based monitoring modules.
+Admin can monitor:
 
 
-AI Agents:
+### Stock Optimization Agent
 
 
-## Stock Optimization Agent
+Functions:
 
-Responsibilities:
 
-- Monitor inventory levels
-- Detect low stock
+- Detect low stock products
 - Suggest inventory increase
 
 
-## Demand Forecast Agent
 
-Responsibilities:
+### Demand Forecast Agent
+
+
+Functions:
+
 
 - Analyze demand patterns
-- Prepare future stock requirements
+- Forecast future stock requirements
 
 
-## Transfer Optimization Agent
 
-Responsibilities:
+### Transfer Optimization Agent
+
+
+Functions:
+
 
 - Detect inventory imbalance
-- Generate transfer recommendations
+- Recommend product transfers
 
 
 
 ---
 
-# 7. Notification System
+## Notification Management
 
 
-The notification module provides alerts.
+System provides alerts for:
 
 
-Notification types:
-
-
-- Inventory alerts
+- Low stock alerts
 - Transfer recommendations
-- AI agent updates
-- Demand forecast alerts
+- AI analysis updates
+- Forecast updates
+
 
 
 Features:
 
+
 - View notifications
 - Delete notifications
-- Notification status tracking
+- Track notification status
+
 
 
 ---
 
-# 8. Profile Management
+# 👤 User Features
+
+
+Users have limited access.
+
+
+
+Available:
+
+
+✅ User Dashboard
+
+✅ View Inventory
+
+✅ View Transfer Status
+
+✅ View AI Recommendations
+
+✅ Update Profile
+
+
+
+Restricted:
+
+
+❌ Add Products
+
+❌ Edit Products
+
+❌ Delete Products
+
+❌ Approve Transfers
+
+
+
+---
+
+# 📊 Dashboard Modules
+
+
+
+# Admin Dashboard
+
+
+Contains:
+
+
+- Inventory statistics
+- Inventory management
+- Transfer management
+- AI monitoring
+
+
+
+Screenshot:
+
+
+![Admin Dashboard](assets/admin-dashboard.png)
+
+
+
+---
+
+# User Dashboard
+
+
+Contains:
+
+
+- Inventory overview
+- Transfer status
+- Recommendations
+
+
+
+Screenshot:
+
+
+![User Dashboard](assets/user-dashboard.png)
+
+
+
+---
+
+# 📦 Inventory Management Module
+
+
+
+## Product Operations
+
+
+Completed:
+
+
+✅ Create Product
+
+✅ Read Products
+
+✅ Update Product
+
+✅ Delete Product
+
+
+
+Product Details:
+
+
+| Field | Description |
+|-|-|
+| Product Name | Product identification |
+| SKU | Stock keeping unit |
+| Category | Product category |
+| State | Product location |
+| Quantity | Available stock |
+| Price | Product cost |
+| Supplier | Supplier information |
+
+
+
+---
+
+# 🔎 Search And Filtering
+
+
+Implemented:
+
+
+- Product search
+- SKU search
+- Supplier search
+- Category filtering
+- State filtering
+
+
+
+---
+
+# 🚚 Transfer Management Module
+
+
+Transfer system manages product movement between locations.
+
+
+
+Information stored:
+
+
+- From Location
+- To Location
+- SKU
+- Quantity
+- Cost
+- Profit
+- Status
+
+
+
+Admin workflow:
+
+
+```
+Create Transfer
+
+      ↓
+
+Pending
+
+      ↓
+
+Approve
+
+      ↓
+
+Completed
+
+```
+
+
+
+---
+
+# 👤 Profile Management
 
 
 Available for Admin and Users.
 
 
+
 Features:
 
+
 - View profile
-- Update name
-- View email
+- Display username
+- Display email
 - Display role
+- Update name
+
 
 
 Screenshot:
+
 
 ![Profile](assets/profile.png)
 
@@ -437,172 +497,253 @@ Screenshot:
 
 ---
 
-# Frontend Folder Structure
+# ⚙️ Settings Module
 
 
-```
-frontend
+System settings include:
 
-src
-│
-├── api
-│   ├── auth.js
-│   ├── dashboard.js
-│   ├── inventory.js
-│   ├── transfers.js
-│   └── notifications.js
-│
-├── components
-│   ├── Navbar.jsx
-│   ├── Sidebar.jsx
-│   ├── DashboardCard.jsx
-│   ├── InventoryTable.jsx
-│   ├── TransferTable.jsx
-│   ├── AddInventory.jsx
-│   └── EditInventory.jsx
-│
-├── pages
-│   ├── Login.jsx
-│   ├── Signup.jsx
-│   ├── AdminDashboard.jsx
-│   ├── UserDashboard.jsx
-│   ├── Inventory.jsx
-│   ├── UserInventory.jsx
-│   ├── Transfers.jsx
-│   ├── Profile.jsx
-│   ├── Settings.jsx
-│   └── Analytics.jsx
-│
-├── styles
-│   ├── Dashboard.css
-│   ├── Inventory.css
-│   ├── Profile.css
-│   ├── Navbar.css
-│   ├── Sidebar.css
-│   └── Table.css
-│
-└── App.jsx
 
-```
+- Notification preferences
+- Theme settings
+- User preferences
+
 
 
 ---
 
-# Backend Folder Structure
+# 🏗️ System Architecture
+
 
 
 ```
-backend
+                 User
 
-src/main/java/com/networkiq
+                  |
 
-│
-├── controller
-│
-│   ├── AuthController
-│   ├── InventoryController
-│   ├── TransferController
-│   └── NotificationController
-│
-├── entity
-│
-│   ├── User
-│   ├── Inventory
-│   ├── Transfer
-│   ├── Notification
-│   └── Settings
-│
-├── repository
-│
-│   ├── UserRepository
-│   ├── InventoryRepository
-│   ├── TransferRepository
-│   └── NotificationRepository
-│
-├── service
-│
-│   ├── UserService
-│   ├── InventoryService
-│   ├── TransferService
-│   ├── NotificationService
-│   └── AIEngineService
-│
-└── dto
+                  |
+
+           React Frontend
+
+                  |
+
+                  |
+
+             Axios API
+
+                  |
+
+                  |
+
+        Spring Boot Backend
+
+                  |
+
+                  |
+
+          Spring Data JPA
+
+                  |
+
+                  |
+
+            MySQL Database
+
 
 ```
 
 
----
-
-# Database Design
-
-
-## Users Table
-
-
-Stores:
-
-- ID
-- Name
-- Email
-- Password
-- Role
-
 
 ---
 
-## Inventory Table
+# 🛠️ Technology Stack
 
 
-Stores:
 
-- Product details
-- SKU
-- Category
-- Quantity
-- Price
-- Supplier
-- Location
+# Frontend
 
 
----
-
-## Transfer Table
-
-
-Stores:
-
-- Transfer details
-- Quantity
-- Cost
-- Profit
-- Status
+- React.js
+- React Router DOM
+- Axios
+- React Icons
+- CSS3
 
 
----
 
-## Notification Table
+# Backend
 
 
-Stores:
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Hibernate
+- Maven
 
-- Title
-- Message
-- Type
-- Priority
-- Status
-- Created Time
+
+
+# Database
+
+
+- MySQL
+
+
+
+# Development Tools
+
+
+- VS Code
+- IntelliJ IDEA
+- Postman
+- Git
+- GitHub
+
 
 
 ---
 
-# API Documentation
+# 📂 Project Structure
 
 
-## Authentication APIs
+
+```
+NetworkIQ
 
 
-### Signup
+│
+
+├── BACKEND
+
+│
+
+│── src/main/java/com/networkiq
+
+│
+
+│   ├── controller
+
+│   ├── service
+
+│   ├── repository
+
+│   ├── entity
+
+│   ├── dto
+
+│
+
+│
+
+└── frontend
+
+    │
+
+    ├── src
+
+    │
+
+    ├── components
+
+    │
+
+    ├── pages
+
+    │
+
+    ├── api
+
+    │
+
+    └── styles
+
+
+```
+
+
+
+---
+
+# 🗄️ Database Design
+
+
+
+# Users Table
+
+
+| Column | Type |
+|-|-|
+| id | Long |
+| name | String |
+| email | String |
+| password | String |
+| role | String |
+
+
+
+---
+
+# Inventory Table
+
+
+| Column | Type |
+|-|-|
+| id | Long |
+| productName | String |
+| sku | String |
+| category | String |
+| state | String |
+| quantity | Integer |
+| price | Double |
+| supplier | String |
+
+
+
+---
+
+# Transfer Table
+
+
+| Column | Type |
+|-|-|
+| id | Long |
+| fromLocation | String |
+| toLocation | String |
+| sku | String |
+| quantity | Integer |
+| cost | Double |
+| profit | Double |
+| status | String |
+
+
+
+---
+
+# Notification Table
+
+
+| Column | Type |
+|-|-|
+| id | Long |
+| title | String |
+| message | String |
+| type | String |
+| priority | String |
+| status | String |
+| createdAt | DateTime |
+
+
+
+---
+
+# 🔌 Backend API Documentation
+
+
+
+# Authentication APIs
+
+
+## Register User
+
 
 ```
 POST
@@ -612,7 +753,8 @@ POST
 ```
 
 
-### Login
+## Login User
+
 
 ```
 POST
@@ -622,7 +764,8 @@ POST
 ```
 
 
-### Update Profile
+## Update Profile
+
 
 ```
 PUT
@@ -638,7 +781,9 @@ PUT
 # Inventory APIs
 
 
-### Get Inventory
+
+## Get Inventory
+
 
 ```
 GET
@@ -648,7 +793,9 @@ GET
 ```
 
 
-### Add Inventory
+
+## Add Product
+
 
 ```
 POST
@@ -658,7 +805,9 @@ POST
 ```
 
 
-### Update Inventory
+
+## Update Product
+
 
 ```
 PUT
@@ -668,7 +817,9 @@ PUT
 ```
 
 
-### Delete Inventory
+
+## Delete Product
+
 
 ```
 DELETE
@@ -684,7 +835,9 @@ DELETE
 # Transfer APIs
 
 
-### Get Transfers
+
+## Get Transfers
+
 
 ```
 GET
@@ -694,7 +847,9 @@ GET
 ```
 
 
-### Create Transfer
+
+## Create Transfer
+
 
 ```
 POST
@@ -704,7 +859,9 @@ POST
 ```
 
 
-### Update Transfer
+
+## Update Transfer
+
 
 ```
 PUT
@@ -714,7 +871,9 @@ PUT
 ```
 
 
-### Delete Transfer
+
+## Delete Transfer
+
 
 ```
 DELETE
@@ -727,53 +886,23 @@ DELETE
 
 ---
 
-# Installation Guide
+# ⚙️ Installation And Setup
 
 
-## Clone Repository
-
-
-```bash
-git clone https://github.com/yourusername/networkiq.git
-```
-
-
----
 
 # Backend Setup
 
 
-Go to backend folder:
+
+Navigate:
 
 
 ```bash
-cd backend
+cd BACKEND
 ```
 
 
-Configure database:
-
-
-`application.properties`
-
-
-Example:
-
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/networkiq
-
-spring.datasource.username=root
-
-spring.datasource.password=your_password
-
-
-spring.jpa.hibernate.ddl-auto=update
-
-```
-
-
-Run backend:
+Run:
 
 
 ```bash
@@ -781,7 +910,7 @@ mvn spring-boot:run
 ```
 
 
-Backend:
+Backend URL:
 
 
 ```
@@ -796,7 +925,8 @@ http://localhost:8080
 # Frontend Setup
 
 
-Go to frontend folder:
+
+Navigate:
 
 
 ```bash
@@ -804,23 +934,25 @@ cd frontend
 ```
 
 
-Install packages:
+Install dependencies:
 
 
 ```bash
 npm install
+
 ```
 
 
-Run project:
+Run:
 
 
 ```bash
 npm run dev
+
 ```
 
 
-Frontend:
+Frontend URL:
 
 
 ```
@@ -832,16 +964,54 @@ http://localhost:5175
 
 ---
 
-# Screenshots
+# 🔄 Application Workflow
 
 
-## Login
+
+```
+User Registration
+
+        ↓
+
+Login
+
+        ↓
+
+Role Verification
+
+        ↓
+
+Dashboard Access
+
+        ↓
+
+Inventory / Transfer Operations
+
+        ↓
+
+Database Update
+
+        ↓
+
+Updated Dashboard View
+
+```
+
+
+
+---
+
+# 📸 Screenshots
+
+
+
+## Login Page
 
 ![Login](assets/login.png)
 
 
 
-## Signup
+## Signup Page
 
 ![Signup](assets/signup.png)
 
@@ -849,25 +1019,25 @@ http://localhost:5175
 
 ## Admin Dashboard
 
-![Admin Dashboard](assets/admin-dashboard.png)
+![Admin](assets/admin-dashboard.png)
 
 
 
 ## User Dashboard
 
-![User Dashboard](assets/user-dashboard.png)
+![User](assets/user-dashboard.png)
 
 
 
-## Inventory
+## Inventory Management
 
 ![Inventory](assets/inventory.png)
 
 
 
-## Transfers
+## Transfer Management
 
-![Transfers](assets/transfers.png)
+![Transfer](assets/transfers.png)
 
 
 
@@ -879,41 +1049,134 @@ http://localhost:5175
 
 ---
 
-# Future Improvements
+# 🚀 Future Enhancements
 
 
-Planned enhancements:
+
+## AI Inventory Optimization
 
 
-- JWT authentication
+Planned:
+
+
+- Demand prediction
+- Smart restocking
+- Stock optimization
+- Automated recommendations
+
+
+
+## Analytics Dashboard
+
+
+Planned:
+
+
+- Inventory charts
+- Sales trends
+- Category analysis
+- Performance reports
+
+
+
+## Smart Planner
+
+
+Planned:
+
+
+- AI-based inventory planning
+- Future demand forecasting
+
+
+
+## Security Improvements
+
+
+Planned:
+
+
+- JWT Authentication
 - Password encryption
-- Advanced analytics charts
-- AI demand prediction
-- Machine learning stock forecasting
-- Email notifications
+- Advanced authorization
+
+
+
+## Deployment
+
+
+Planned:
+
+
 - Cloud deployment
-- Mobile application
-- Docker containerization
+- Docker support
+- CI/CD pipeline
 
-
----
-
-# Author
-
-
-Developed by:
-
-## Brahmi
-
-
-Project:
-
-## NetworkIQ - Inventory Optimization Dashboard
 
 
 ---
 
-# License
+# 📌 Current Project Status
 
 
-This project is developed for learning and portfolio purposes.
+
+✅ Frontend Completed
+
+✅ Backend Completed
+
+✅ MySQL Database Completed
+
+✅ Authentication Completed
+
+✅ Role Based Access Completed
+
+✅ Inventory CRUD Completed
+
+✅ Transfer Management Completed
+
+✅ Search Completed
+
+✅ Filtering Completed
+
+✅ Profile Management Completed
+
+✅ Notification System Completed
+
+✅ Settings Module Completed
+
+
+
+---
+
+# ⭐ Conclusion
+
+
+NetworkIQ provides a complete inventory optimization solution combining modern frontend technologies, Spring Boot backend services, and database-driven operations.
+
+The project creates a strong foundation for future AI-powered inventory prediction, smart planning, and intelligent decision-making systems.
+
+
+
+---
+
+# 👨‍💻 Developed By
+
+
+
+# TEAM 191
+
+
+Team ID:
+
+**T191**
+
+
+Team Lead:
+
+**Gorantla Sri Sai Brahmendra**
+
+
+GitHub:
+
+https://github.com/Brahmendra06/NetworkIQ
+

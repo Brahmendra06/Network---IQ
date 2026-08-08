@@ -1,0 +1,386 @@
+.page-title{
+
+    margin:20px 0;
+
+}
+
+
+
+/* AGENT GRID */
+
+.agents-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+
+
+/* AGENT CARD */
+
+.agent-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    transition:.3s;
+
+}
+
+
+
+.agent-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+
+}
+
+
+
+.agent-card h3{
+
+    margin-bottom:18px;
+
+    color:#1f2937;
+
+    font-size:20px;
+
+}
+
+
+
+
+
+.agent-card span{
+
+    display:inline-block;
+
+    padding:7px 16px;
+
+    border-radius:20px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+
+
+
+
+.green{
+
+    background:#22C55E;
+
+}
+
+
+
+.orange{
+
+    background:#F59E0B;
+
+}
+
+
+
+.blue{
+
+    background:#2563EB;
+
+}
+
+
+
+
+
+.agent-card p{
+
+    margin:18px 0;
+
+    color:#4b5563;
+
+    line-height:1.5;
+
+}
+
+
+
+.agent-card p strong{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#111827;
+
+    font-size:15px;
+
+}
+
+
+
+
+
+.agent-card button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+
+
+.agent-card button:hover{
+
+    background:#1d4ed8;
+
+    transform:scale(1.02);
+
+}
+
+
+
+
+
+
+
+/* LOG MODAL */
+
+
+.modal{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,0.45);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:999;
+
+}
+
+
+
+
+
+.modal-content{
+
+    background:white;
+
+    width:600px;
+
+    max-height:80vh;
+
+    overflow-y:auto;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+
+
+
+
+.modal-content h2{
+
+    text-align:center;
+
+    color:#2563EB;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+.log-card{
+
+    background:#f8fafc;
+
+    padding:18px;
+
+    margin:15px 0;
+
+    border-radius:12px;
+
+    border-left:5px solid #2563EB;
+
+}
+
+
+
+
+
+.log-card p{
+
+    margin:8px 0;
+
+    color:#374151;
+
+}
+
+
+
+
+
+/* CLEAR BUTTON */
+
+
+.clear-btn{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+
+
+.clear-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+
+
+
+
+/* CLOSE BUTTON */
+
+
+.reject{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    background:#EF4444;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+
+
+.reject:hover{
+
+    background:#dc2626;
+
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+    .agents-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    .agent-card{
+
+        padding:20px;
+
+    }
+
+
+
+    .modal-content{
+
+        width:90%;
+
+    }
+
+
+}

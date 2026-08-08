@@ -1018,13 +1018,13 @@ Updated Dashboard View
 
 ## Admin Dashboard
 
-![Admin](assets/admin-dashboard.png)
+![Admin Dashboard](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/admin-dashboard.png)
 
 
 
 ## User Dashboard
 
-![User](assets/user-dashboard.png)
+![User Dashboard](https://github.com/Brahmendra06/Network---IQ/blob/main/Screenshots/user-dashboard.png)
 
 
 
